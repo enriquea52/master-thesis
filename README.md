@@ -70,6 +70,12 @@ Run colcon build with symlinks
   $ source ./ros2_ws/install/setup.bash
 ```
 
+Launch the package
+
+```bash
+  $ ros2 launch ekf_ros full.launch.py 
+```
+
 ## Software Architecture
 
 <p align="center">
