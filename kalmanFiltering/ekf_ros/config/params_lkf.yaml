@@ -1,0 +1,44 @@
+fusion_node:
+  ros__parameters:
+
+    kinematic_params:
+      l: 1.33595
+      r: 0.1161
+      a: 0.267
+
+    joint_states_topic: "/joint_states"
+    icp_topic: "/kiss_odom"
+    imu_topic: "/zed2i/zed_node/imu/data"
+    output_fusion_topic: "/fused_odom"
+
+
+    pred_cov:
+      std_v: 0.2
+      std_w: 0.14
+
+    enc_cov:
+      std_v: 0.1
+      std_w: 0.05
+
+    icp_cov:
+      std_v: 0.210
+      std_w: 0.026
+
+    imu_cov:
+      std_w: 0.003
+
+    initial:
+      # Full Bag Max 5
+      x: 26.884
+      y: 46.424
+      theta: -1.541
+      
+      # Full Bag Max
+      # x: 26.882
+      # y: 56.965
+      # theta: -1.5553
+      
+      # Full bag 3
+      # x: 26.829
+      # y: 59.199
+      # theta: -1.574

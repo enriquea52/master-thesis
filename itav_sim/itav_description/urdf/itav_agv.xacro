@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="itav_bot">
+
+  <xacro:property name="traction_wheel_radious" value="0.130"/>
+  <xacro:property name="traction_wheel_offset" value="0.0"/>
+  <xacro:property name="wheel_base" value="1.384"/>
+  <xacro:property name="rear_wheels_radious" value="0.041"/>
+
+  <xacro:include filename="$(find itav_description)/urdf/gazebo.xacro" />
+  <xacro:include filename="$(find itav_description)/urdf/materials.xacro" />
+  <xacro:include filename="$(find itav_description)/urdf/robot_structure.xacro" />
+  <xacro:robot a="${traction_wheel_offset}"  R="${traction_wheel_radious}" L="${wheel_base}" r="${rear_wheels_radious}" />
+  <xacro:include filename="$(find itav_description)/urdf/plugins.xacro" />
+
+  <xacro:include filename="$(find itav_description)/urdf/zed_camera.macro.xacro" />
+
+  <xacro:depth_camera name="zed" />
+  <joint name="camera_joint" type="fixed">
+      <origin rpy="0 0 0" xyz="1.05 0 2.20"/>
+      <parent link="chassis"/>
+      <child link="zed_link"/>
+  </joint>
+
+
+  <link name="safety_lidar_front_link"></link>
+
+  <joint name="front_scanner_joint" type="fixed">
+    <origin rpy="3.1416 0.0 -0.8753 " xyz="1.40 -0.54 0" />
+    <parent link="base_link" />
+    <child link="safety_lidar_front_link" />
+  </joint>
+    
+
+  <link name="safety_lidar_back_link"></link>
+6781
+  <joint name="back_scanner_joint" type="fixed">
+    <origin rpy="3.1416 0.0 1.734 " xyz="0.6 0.42 0" />
+    <parent link="base_link" />
+    <child link="safety_lidar_back_link" />
+  </joint>
+    
+
+</robot>

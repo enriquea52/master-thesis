@@ -1,0 +1,21 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/enrique/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages",
+        "/home/enrique/ros2_ws/build/stereo_glue",
+        "/home/enrique/ros2_ws/install/stereo_glue/lib/python3.10/site-packages",
+        "/home/enrique/ros2_ws/install/spawn_robot_tools_pkg/lib/python3.10/site-packages",
+        "/home/enrique/ros2_ws/install/robot_localization/local/lib/python3.10/dist-packages",
+        "/home/enrique/ros2_ws/build/kinematic_odom",
+        "/home/enrique/ros2_ws/install/kinematic_odom/lib/python3.10/site-packages",
+        "/home/enrique/ros2_ws/install/geodesy/local/lib/python3.10/dist-packages",
+        "/home/enrique/ros2_ws/install/geographic_msgs/local/lib/python3.10/dist-packages",
+        "/home/enrique/ros2_ws/install/ekf_interfaces/local/lib/python3.10/dist-packages",
+        "/home/enrique/ros2_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages",
+        "/home/enrique/ros2_ws/build/april_detect",
+        "/home/enrique/ros2_ws/install/april_detect/lib/python3.10/site-packages",
+        "/home/enrique/ros2_ws/install/april_detect_msgs/local/lib/python3.10/dist-packages",
+        "/home/enrique/ros2_ws/install/angles/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

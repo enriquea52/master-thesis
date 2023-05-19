@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/humble/include/**",
+        "/home/enrique/ros2_ws/src/ekf_ros/include/**",
+        "/home/enrique/ros2_ws/src/itav_description/include/**",
+        "/home/enrique/ros2_ws/src/simulation/include/**",
+        "/home/enrique/ros2_ws/src/tavilbot_description/include/**",
+        "/home/enrique/ros2_ws/src/visual/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

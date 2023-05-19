@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/enrique/ros2_ws/install/zed_components/include/**",
+        "/home/enrique/ros2_ws/install/zed_interfaces/include/**",
+        "/home/enrique/ros2_ws/install/robot_localization/include/**",
+        "/home/enrique/ros2_ws/install/laser_filters/include/**",
+        "/home/enrique/ros2_ws/install/kiss_icp/include/**",
+        "/home/enrique/ros2_ws/install/geodesy/include/**",
+        "/home/enrique/ros2_ws/install/geographic_msgs/include/**",
+        "/home/enrique/ros2_ws/install/gazebo_custom_plugins/include/**",
+        "/home/enrique/ros2_ws/install/ekf_interfaces/include/**",
+        "/home/enrique/ros2_ws/install/april_detect_msgs/include/**",
+        "/home/enrique/ros2_ws/install/angles/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/enrique/ros2_ws/src/MASTER_THESIS/aprilTag_detection/april_detect_msgs/include/**",
+        "/home/enrique/ros2_ws/src/MASTER_THESIS/itav_sim/itav_description/include/**",
+        "/home/enrique/ros2_ws/src/MASTER_THESIS/itav_sim/itav_gazebo/include/**",
+        "/home/enrique/ros2_ws/src/MASTER_THESIS/kalmanFiltering/ekf_interfaces/include/**",
+        "/home/enrique/ros2_ws/src/MASTER_THESIS/kalmanFiltering/ekf_ros/include/**",
+        "/home/enrique/ros2_ws/src/MASTER_THESIS/pointcloud_proc/point_merger/include/**",
+        "/home/enrique/ros2_ws/src/angles/angles/include/**",
+        "/home/enrique/ros2_ws/src/gazebo_plugins/include/**",
+        "/home/enrique/ros2_ws/src/geographic_info/geodesy/include/**",
+        "/home/enrique/ros2_ws/src/itav_bringup/include/**",
+        "/home/enrique/ros2_ws/src/laser_filters/include/**",
+        "/home/enrique/ros2_ws/src/robot_localization/include/**",
+        "/home/enrique/ros2_ws/src/tavil_bot/simulation/include/**",
+        "/home/enrique/ros2_ws/src/tavil_bot/tavilbot_description/include/**",
+        "/home/enrique/ros2_ws/src/visual/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

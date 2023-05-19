@@ -1,0 +1,33 @@
+april_detect_node:
+  ros__parameters:
+
+    stereo_frame_id: "zed_link_optical_frame"
+    stereo_img_topic: "stereo/stereo/image_raw/compressed"
+    left_img_topic: "stereo/left/image_raw/compressed"
+    right_img_topic: "stereo/right/image_raw/compressed"
+    april_detections_topic: "april_detected"
+
+    total_tags: 15
+    time_window: 10
+
+    quad_decimate: 2.0
+    quad_sigma: 0.1
+    decode_sharpening: 0.25
+    tag_size: 0.21
+
+    camera_intrinsics:
+      fx: 759.8347725610748
+      fy: 759.8347725610748
+      cx: 640.5
+      cy: 360.5
+      b: 0.12
+
+    triangulation_stds:
+      x: 0.3
+      y: 0.3
+      z: 1.0
+
+    homography_stds:
+      x: 0.05
+      y: 0.05
+      z: 0.5

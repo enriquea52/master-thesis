@@ -1,0 +1,33 @@
+ekf_slam_node:
+  ros__parameters:
+
+    kinematic_params:
+      l: 1.33595
+      r: 0.1161
+      a: 0.267
+      # simulation
+      # l: 1.384
+      # r: 0.130
+      # a: 0.0
+
+    maps_path: "/home/enrique/ros2_ws/src/MASTER_THESIS/kalmanFiltering/ekf_ros/maps/"
+
+    odometry_topic: "fused_odom"
+    motion_covariance:
+      std_v: 0.02
+      std_w: 0.01
+
+    tag_topic: "april_detected"
+    tag_covariance:
+      std_x: 0.25
+      std_y: 0.25
+      std_z: 0.25
+
+    camera_pose_wrt_base:
+      x: 1.10
+      y: 0.06
+      z: 2.0
+
+      # x: 1.05
+      # y: 0.06
+      # z: 2.2
